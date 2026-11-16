@@ -1,0 +1,83 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem 2rem;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+.link:hover,
+.link:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.active {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.select {
+  max-width: 240px;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;}
+
+.select option {
+  background: var(--card);
+  color: var(--text);
+}
+
+
+.select:focus-visible,
+.toggle:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+}
+
+.toggle {
+  padding: 0.35rem 0.9rem;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+.toggle:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+
+
+@media (max-width: 600px) {
+  .nav {
+    gap: 0.75rem 1.25rem;
+  }
+
+  .select {
+    max-width: 100%;
+  }
+}

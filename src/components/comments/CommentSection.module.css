@@ -1,0 +1,10 @@
+.section {
+  margin-top: 2rem;
+}
+
+.heading {
+  margin: 0 0 1rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--text-strong);
+}

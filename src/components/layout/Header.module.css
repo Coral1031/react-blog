@@ -1,0 +1,22 @@
+.header {
+  background: linear-gradient(90deg, var(--header-from) 0%, var(--header-to) 100%);
+  color: #fff;
+  padding: 1rem 2rem 1.25rem;
+}
+
+.logo {
+  margin: 0 0 0.75rem;
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 1rem;
+  }
+
+  .logo {
+    font-size: 1.75rem;
+  }
+}

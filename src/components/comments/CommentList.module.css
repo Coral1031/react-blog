@@ -1,0 +1,33 @@
+.wrapper {
+  margin-top: 2rem;
+}
+
+.heading {
+  margin: 0 0 0.75rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+
+.list {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.item {
+  margin-bottom: 0.6rem;
+  font-size: 1.1rem;
+  color: var(--text-body);
+  overflow-wrap: anywhere;
+}
+
+.name {
+  color: var(--text-strong);
+}
+
+.empty {
+  margin: 0;
+  color: var(--muted);
+  font-style: italic;
+}
